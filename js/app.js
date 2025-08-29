@@ -14,12 +14,16 @@ const LS_KEYS = {
 
 // Curated to avoid the feeds that are erroring at the source.
 const defaultFeeds = [
+    { title: 'Formula 1 Official', url: 'https://news.google.com/rss/search?q=site:formula1.com/en/latest&hl=en-GB&gl=GB&ceid=GB:en' },
     { title: 'Autosport (F1)', url: 'https://www.autosport.com/rss/f1/news/' },
     { title: 'Motorsport.com (F1)', url: 'https://www.motorsport.com/rss/f1/news/' },
     { title: 'RaceFans', url: 'https://feeds.feedburner.com/f1fanatic' },
     { title: 'FIA Press Releases', url: 'https://www.fia.com/rss/press-release' },
     { title: 'BBC Sport (F1)', url: 'https://feeds.bbci.co.uk/sport/formula1/rss.xml' },
+    { title: 'Sky News (F1)', url: 'https://news.google.com/rss/search?q=site:skysports.com/f1&hl=en-GB&gl=GB&ceid=GB:en' },
+    { title: 'ESPN (F1)', url: 'https://news.google.com/rss/search?q=site:espn.com/f1&hl=en-GB&gl=GB&ceid=GB:en\n' },
     { title: 'Grand Prix 247 (mirror)', url: 'https://news.google.com/rss/search?q=site:grandprix247.com&hl=en-GB&gl=GB&ceid=GB:en' },
+    { title: 'RaceFans', url: 'https://www.racefans.net/feed/' },
     // You can try these later if you like, but they often block proxies:
     // { title: 'PlanetF1', url: 'https://www.planetf1.com/feed/' },
     // { title: 'Grandprix.com', url: 'https://www.grandprix.com/rss.xml' },
