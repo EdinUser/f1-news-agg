@@ -1,0 +1,43 @@
+body {
+    background: #0b0d12;
+    color: #e9ecef;
+}
+a {
+    text-decoration: none;
+}
+.navbar,
+.offcanvas,
+.modal-content {
+    background: #121521;
+}
+.card {
+    background: #121521;
+    border: 1px solid rgba(255,255,255,.08);
+}
+.badge-feed {
+    opacity: .9;
+}
+.article-new {
+    box-shadow: 0 0 0 2px rgba(25,135,84,.4) inset;
+}
+.cooldown-pill {
+    font-variant-numeric: tabular-nums;
+}
+.truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.truncate-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.muted {
+    color: #adb5bd;
+}
+.link-light:hover {
+    color: #86b7fe;
+}
